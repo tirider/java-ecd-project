@@ -1,0 +1,2 @@
+$ cmd/tree-tagger-french-utf8 input/corpus-pos.txt > output/positives.txt
+$ cmd/tree-tagger-french-utf8 input/corpus-neg.txt > output/negatives.txt
