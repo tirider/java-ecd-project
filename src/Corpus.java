@@ -314,7 +314,7 @@ public class Corpus
 
 		// ECRITURE DANS LE FICHIER -- TYPES DE CLASSES
 		System.out.println("@attribute class {"+classes+"}");
-		writer.println("@attribute class {"+classes+"}");
+		writer.println("@attribute Class {"+classes+"}");
 		
 		// ECRITURE DANS LE FICHIER
 		System.out.println("@data");
@@ -336,7 +336,7 @@ public class Corpus
 				String val = corpusWords.get(j);
 
 				if(currentDocumentWords.contains(val))
-					currentDocumentLine.add("1");
+					currentDocumentLine.add("t");
 				else
 					currentDocumentLine.add("?");
 			}
